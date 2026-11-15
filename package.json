@@ -2,7 +2,12 @@
   "name": "api-gateway",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
+  "workspaces":[
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {},
   "type": "commonjs",
   "devDependencies": {
